@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Title Finder",
+    "version": "1.0",
+    "description": "Chrome extension to show the title of the current tab.",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/picker_16.png",
+      "32": "images/picker_32.png",
+      "48": "images/picker_48.png"
+    }
+  }
+  
